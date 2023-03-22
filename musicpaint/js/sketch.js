@@ -5,7 +5,7 @@ let x, y;
 let drawing = false;
 
 
-let standbySound = new Tone.Player("js/sounds/standby.wav").toDestination();
+let standbySound = new Tone.Player("js/sounds/sbm.wav").toDestination();
 standbySound.loop = true;
 standbySound.autostart = true;
 
